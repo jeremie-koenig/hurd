@@ -38,7 +38,7 @@ prog-subdirs = auth proc exec init term \
 	       ufs ext2fs isofs nfs tmpfs fatfs \
 	       storeio pflocal pfinet defpager mach-defpager \
 	       login daemons nfsd boot console \
-	       hostmux usermux ftpfs trans \
+	       hostmux usermux ftpfs procfs trans \
 	       console-client utils sutils ufs-fsck ufs-utils \
 	       benchmarks fstests
 

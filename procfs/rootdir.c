@@ -460,7 +460,7 @@ static const struct procfs_dir_entry rootdir_entries[] = {
       .cleanup_contents = procfs_cleanup_contents_with_free,
     },
   },
-#ifdef PROFILE
+#ifdef PROF
   /* In order to get a usable gmon.out file, we must apparently use exit(). */
   {
     .name = "exit",
